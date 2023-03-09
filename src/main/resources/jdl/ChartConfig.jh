@@ -1,0 +1,23 @@
+entity ConfigChart {
+     id  Long
+     chartCode  String
+     chartName  String
+     titleChart  String
+     typeChart  String
+     timeTypeDefault  Long
+     relativeTime  Long
+     hasTooltip  Long
+     chartUrl  String
+     groupChartId  Long
+     orderIndex  Long
+     groupKpiCode  String
+     domainCode  String
+     status  Long
+     description  String
+     updateTime  Instant
+     updateUser  String
+}
+ dto ConfigChart with mapstruct
+ paginate ConfigChart with pagination
+ service ConfigChart with serviceClass
+ service ConfigChart with serviceImpl

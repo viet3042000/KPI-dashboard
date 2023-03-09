@@ -1,0 +1,13 @@
+entity TokenDeviceUser {
+	 id Long
+	 userId String
+	 tokenDevice String
+	 deviceName String
+	 status Long
+     updateTime Instant
+     updateUser String
+}
+dto TokenDeviceUser with mapstruct
+paginate TokenDeviceUser with pagination
+service TokenDeviceUser with serviceClass
+service TokenDeviceUser with serviceImpl

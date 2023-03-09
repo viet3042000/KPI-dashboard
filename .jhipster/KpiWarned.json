@@ -1,0 +1,57 @@
+{
+  "name": "KpiWarned",
+  "fields": [
+    {
+      "fieldName": "kpiId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "prdId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "timeType",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "warningType",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "warningLevel",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "warningContent",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "updateTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updateUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "tableName",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20200813021222",
+  "entityTableName": "kpi_warned",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

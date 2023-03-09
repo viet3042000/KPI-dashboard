@@ -1,0 +1,44 @@
+{
+    "name": "NotificationUser",
+    "fields": [
+        {
+            "fieldName": "notifyId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "userIdRecieved",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "isNew",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "isRead",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "updateTime",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "updateUser",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200403031200",
+    "entityTableName": "notification_user",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

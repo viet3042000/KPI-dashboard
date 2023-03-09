@@ -1,0 +1,156 @@
+{
+    "name": "TelcomRptGraph",
+    "fields": [
+        {
+            "fieldName": "timeType",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "prdId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "kpiId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "kpiCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "kpiName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "objCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "objName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "parentCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "parentName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "inputLevel",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "valPlan",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "valPlanMon",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "valPlanQuar",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "valPlanYear",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "val",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "valMon",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "valQuar",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "valYear",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "valLastMon",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "valLastQuar",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "valLastYear",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "valDelta",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "valDeltaMon",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "valDeltaQuar",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "valDeltaYear",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "percentPlan",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "percentPlanMon",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "percentPlanQuar",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "percentPlanYear",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "percentGrow",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "percentGrowMon",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "percentGrowQuar",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "percentGrowYear",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "colorAlarm",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "domainCode",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200221040300",
+    "entityTableName": "telcom_rpt_graph",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

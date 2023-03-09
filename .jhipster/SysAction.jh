@@ -1,0 +1,13 @@
+entity SysAction {
+     id Long
+     code String maxlength(200)
+     name String maxlength(300)
+     description String maxlength(500)
+     status Integer
+     updateTime Instant
+     tenantId Long
+}
+dto SysAction with mapstruct
+paginate SysAction with pagination
+service SysAction with serviceClass
+service SysAction with serviceImpl

@@ -1,0 +1,48 @@
+{
+    "name": "ConfigMapChartMenuItem",
+    "fields": [
+        {
+            "fieldName": "chartId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "menuItemId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "isMain",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "orderIndex",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "updateTime",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "updateUser",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200224114200",
+    "entityTableName": "config_map_chart_menu_item",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

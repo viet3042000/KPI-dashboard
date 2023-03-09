@@ -1,0 +1,225 @@
+entity CatGraphKpi {
+     id Long
+     kpiId Long
+     kpiCode String
+     kpiName String
+     kpiDisplay String
+     unitKpi String
+     unitViewCode String
+     rate Long
+     status Long
+     groupKpiCode String
+     domainCode String
+     source String
+     description String
+     updateTime Instant
+     updateUser String
+ }
+ dto CatGraphKpi with mapstruct
+ paginate CatGraphKpi with pagination
+ service CatGraphKpi with serviceClass
+ service CatGraphKpi with serviceImpl
+
+
+entity CatGroupChart {
+      id Long
+      groupCode Long
+      groupName String
+      groupKpiCode String
+      description String
+      status Long
+      updateTime Instant
+      updateUser String
+ }
+  dto CatGroupChart with mapstruct
+  paginate CatGroupChart with pagination
+  service CatGroupChart with serviceClass
+  service CatGroupChart with serviceImpl
+
+entity ConfigArea {
+     id Long
+     areaCode String
+     areaName String
+     orderIndex Long
+     positionJson String
+     screenId Long
+     timeRefresh Long
+     status Long
+     description String
+     updateTime Instant
+     updateUser String
+}
+  dto ConfigArea with mapstruct
+  paginate ConfigArea with pagination
+  service ConfigArea with serviceClass
+  service ConfigArea with serviceImpl
+
+
+
+entity ConfigChartItem {
+     chartId Long
+     id Long
+     typeChart String
+     hasAvgLine Long
+     listColor String
+     orderIndex Long
+     queryId String
+     condition1 String
+     condition2 String
+     condition3 String
+     condition4 String
+     condition5 String
+     status Long
+     description String
+     updateTime Instant
+     updateUser String
+}
+ dto ConfigChartItem with mapstruct
+ paginate ConfigChartItem with pagination
+ service ConfigChartItem with serviceClass
+ service ConfigChartItem with serviceImpl
+
+ entity ConfigDisplayQuery {
+      id  Long
+      itemChartId  Long
+      columnQuery  String
+      dataType  String
+      columnChart  String
+      isRequire  Long
+      status  Long
+      description  String
+      updateTime  Instant
+      updateUser  String
+  }
+
+ dto ConfigDisplayQuery with mapstruct
+ paginate ConfigDisplayQuery with pagination
+ service ConfigDisplayQuery with serviceClass
+ service ConfigDisplayQuery with serviceImpl
+
+entity ConfigMapChartArea {
+     id  Long
+     chartId  Long
+     areaId  Long
+     orderIndex  Long
+     screenIdNextto  Long
+     status  Long
+     updateTime  Instant
+     updateUser  String
+}
+ dto ConfigMapChartArea with mapstruct
+ paginate ConfigMapChartArea with pagination
+ service ConfigMapChartArea with serviceClass
+ service ConfigMapChartArea with serviceImpl
+
+entity ConfigMapChartMenuItem {
+    id Long
+    chartId Long
+    menuItemId Long
+    isMain Long
+    orderIndex Long
+    status Long
+    description String
+    updateTime Instant
+    updateUser String
+}
+ dto ConfigMapChartMenuItem with mapstruct
+ paginate ConfigMapChartMenuItem with pagination
+ service ConfigMapChartMenuItem with serviceClass
+ service ConfigMapChartMenuItem with serviceImpl
+
+entity ConfigMapGroupChartArea {
+      id Long
+      groupChartId Long
+      areaId Long
+      positionJson String
+      status Long
+      updateTime Instant
+      updateUser String
+ }
+
+  dto ConfigMapGroupChartArea with mapstruct
+  paginate ConfigMapGroupChartArea with pagination
+  service ConfigMapGroupChartArea with serviceClass
+  service ConfigMapGroupChartArea with serviceImpl
+
+entity ConfigMenu {
+     id  Long
+     menuCode  String
+     menuName  String
+     domainCode  String
+     status  Long
+     description  String
+     updateTime  Instant
+     updateUser  String
+ }
+   dto ConfigMenu with mapstruct
+   paginate ConfigMenu with pagination
+   service ConfigMenu with serviceClass
+   service ConfigMenu with serviceImpl
+
+entity ConfigMenuItem {
+     id  Long
+     menuItemCode  String
+     menuItemName  String
+     isDefault  Long
+     orderIndex  Long
+     menuId  Long
+     status  Long
+     description  String
+     updateTime  Instant
+     updateUser  String
+}
+   dto ConfigMenuItem with mapstruct
+   paginate ConfigMenuItem with pagination
+   service ConfigMenuItem with serviceClass
+   service ConfigMenuItem with serviceImpl
+
+entity ConfigProfile {
+     id Long
+     profileCode String
+     profileName String
+     isDefault Long
+     orderIndex Long
+     roleCode String
+     status Long
+     description String
+     updateTime Instant
+     updateUser String
+}
+   dto ConfigProfile with mapstruct
+   paginate ConfigProfile with pagination
+   service ConfigProfile with serviceClass
+   service ConfigProfile with serviceImpl
+
+entity ConfigQuery {
+     id  Long
+     queryData  String
+     status  Long
+     description  String
+     updateTime  Instant
+     updateUser  String
+ }
+   dto ConfigQuery with mapstruct
+   paginate ConfigQuery with pagination
+   service ConfigQuery with serviceClass
+   service ConfigQuery with serviceImpl
+
+entity ConfigScreen {
+    id  Long
+    screenCode  String
+    screenName  String
+    isDefault  Long
+    orderIndex  Long
+    profileId  Long
+    menuItemId  Long
+    status  Long
+    description  String
+    updateTime  Instant
+    updateUser  String
+ }
+
+    dto ConfigScreen with mapstruct
+    paginate ConfigScreen with pagination
+    service ConfigScreen with serviceClass
+    service ConfigScreen with serviceImpl

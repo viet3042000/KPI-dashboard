@@ -1,0 +1,28 @@
+entity MonitorQueryKpi {
+	id Long,
+    queryKpiId Integer,
+    status Integer,
+    runTimeSucc Instant,
+    updateTime Instant
+}
+dto MonitorQueryKpi with mapstruct
+paginate MonitorQueryKpi with pagination
+service MonitorQueryKpi with serviceClass
+service MonitorQueryKpi with serviceImpl
+
+entity ConfigQueryKpi {
+	id Long,
+    timeType Integer,
+    inputLevel Long,
+    queryData String,
+    queryCheckData String,
+    status Integer,
+    description String,
+    updateTime Instant,
+    updateUser String,
+    listParentInputLevel String
+}
+dto ConfigQueryKpi with mapstruct
+paginate ConfigQueryKpi with pagination
+service ConfigQueryKpi with serviceClass
+service ConfigQueryKpi with serviceImpl

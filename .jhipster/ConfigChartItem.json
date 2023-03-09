@@ -1,0 +1,76 @@
+{
+    "name": "ConfigChartItem",
+    "fields": [
+        {
+            "fieldName": "chartId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "typeChart",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "hasAvgLine",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "listColor",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "orderIndex",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "queryId",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "condition1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "condition2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "condition3",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "condition4",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "condition5",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "updateTime",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "updateUser",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200224113900",
+    "entityTableName": "config_chart_item",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

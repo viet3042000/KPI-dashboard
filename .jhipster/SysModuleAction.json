@@ -1,0 +1,29 @@
+{
+  "name": "SysModuleAction",
+  "fields": [
+    {
+      "fieldName": "moduleId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "actionId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "updateTime",
+      "fieldType": "Instant"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20201130060636",
+  "entityTableName": "sys_module_action",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

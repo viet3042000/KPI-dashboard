@@ -1,0 +1,33 @@
+{
+    "name": "FavoriteUrl",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "urlLink",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "updateTime",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "updateUser",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200520085800",
+    "entityTableName": "favorite_url",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

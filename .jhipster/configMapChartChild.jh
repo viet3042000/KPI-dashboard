@@ -1,0 +1,12 @@
+entity ConfigMapChartChild {
+	id Long,
+	screenId Long,
+	chartId Long,
+	childChartId Long,
+    updateTime Instant,
+    updateUser String
+}
+dto ConfigMapChartChild with mapstruct
+paginate ConfigMapChartChild with pagination
+service ConfigMapChartChild with serviceClass
+service ConfigMapChartChild with serviceImpl

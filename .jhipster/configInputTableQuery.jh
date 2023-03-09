@@ -1,0 +1,19 @@
+
+
+
+entity ConfigInputTableQueryKpi {
+	id Long,
+    queryKpiId Integer,
+    tableSource String,
+    status Integer,
+    updateTime Instant
+}
+dto ConfigInputTableQueryKpi with mapstruct
+paginate ConfigInputTableQueryKpi with pagination
+service ConfigInputTableQueryKpi with serviceClass
+service ConfigInputTableQueryKpi with serviceImpl
+
+
+
+
+

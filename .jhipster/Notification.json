@@ -1,0 +1,64 @@
+{
+    "name": "Notification",
+    "fields": [
+        {
+            "fieldName": "title",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "userIdSent",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "content",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "fileAttachPath",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "fileAttachName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "screenId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "createDate",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "jsonData",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isSystemNotify",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "isSent",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "updateTime",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "updateUser",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200403031200",
+    "entityTableName": "notification",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

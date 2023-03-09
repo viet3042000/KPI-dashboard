@@ -1,0 +1,56 @@
+{
+    "name": "ConfigScreen",
+    "fields": [
+        {
+            "fieldName": "screenCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "screenName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDefault",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "orderIndex",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "profileId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "menuItemId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "updateTime",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "updateUser",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200224114800",
+    "entityTableName": "config_screen",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

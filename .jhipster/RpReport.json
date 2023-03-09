@@ -1,0 +1,37 @@
+{
+  "name": "RpReport",
+  "fields": [
+    {
+      "fieldName": "reportName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "reportCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "updateTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "prdId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "timeType",
+      "fieldType": "Integer"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210402032718",
+  "entityTableName": "rp_report",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

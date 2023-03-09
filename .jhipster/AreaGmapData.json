@@ -1,0 +1,61 @@
+{
+    "name": "AreaGmapData",
+    "fields": [
+        {
+            "fieldName": "parentCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "parentName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "objectCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "objectName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "locationLevel",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "centerLoc",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "southLoc",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "northLoc",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "northPole",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "geometry",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "Long"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200513040300",
+    "entityTableName": "area_gmap_data",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

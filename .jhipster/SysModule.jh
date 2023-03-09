@@ -1,0 +1,17 @@
+entity SysModule {
+     id Long
+     code String maxlength(200)
+     name String maxlength(250)
+     pathUrl String maxlength(500)
+     icon String maxlength(255)
+     tenantId Long
+     description String maxlength(500)
+     status Integer
+     updateTime Instant
+     parentId Long
+     position Long
+}
+dto SysModule with mapstruct
+paginate SysModule with pagination
+service SysModule with serviceClass
+service SysModule with serviceImpl

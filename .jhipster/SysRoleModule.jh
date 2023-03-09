@@ -1,0 +1,11 @@
+entity SysRoleModule {
+     id Long
+     userId Long
+     moduleCode String maxlength(255)
+     actionCode String maxlength(255)
+     updateTime Instant
+}
+dto SysRoleModule with mapstruct
+paginate SysRoleModule with pagination
+service SysRoleModule with serviceClass
+service SysRoleModule with serviceImpl

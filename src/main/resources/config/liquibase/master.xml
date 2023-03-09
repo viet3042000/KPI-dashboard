@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+
+    <property name="now" value="now()" dbms="h2"/>
+    <property name="now" value="now()" dbms="mysql"/>
+
+    <property name="floatType" value="float4" dbms="postgresql, h2"/>
+    <property name="floatType" value="float" dbms="mysql, oracle, mssql, mariadb"/>
+    <property name="clobType" value="clob" dbms="h2"/>
+    <property name="clobType" value="clob" dbms="mysql, oracle, mssql, mariadb, postgresql"/>
+    <property name="uuidType" value="varchar(36)" dbms="h2, mysql, mariadb"/>
+
+    <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200220092600_added_entity_CatItem.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200224113500_added_entity_CatGraphKpi.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200224113600_added_entity_CatGroupChart.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200224113700_added_entity_ConfigArea.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200224113800_added_entity_ConfigChart.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200224113900_added_entity_ConfigChartItem.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200224114000_added_entity_ConfigDisplayQuery.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200224114100_added_entity_ConfigMapChartArea.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200224114200_added_entity_ConfigMapChartMenuItem.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200224114300_added_entity_ConfigMapGroupChartArea.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200224114400_added_entity_ConfigMenu.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200224114500_added_entity_ConfigMenuItem.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200224114600_added_entity_ConfigProfile.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200224114700_added_entity_ConfigQuery.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200224114800_added_entity_ConfigScreen.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200225015500_added_entity_ConfigChart.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200225040500_added_entity_ConfigQueryChart.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200225041500_added_entity_ConfigQueryChart.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200401090400_added_entity_TokenDeviceUser.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200403081800_added_entity_ConfigReport.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200403081900_added_entity_ConfigReportColumn.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200403031200_added_entity_Notification.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200403031200_added_entity_NotificationUser.xml" relativeToChangelogFile="false"/>
+
+    <include file="config/liquibase/changelog/20200406091700_added_entity_Emails.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200414045616_added_entity_MonitorQueryKpi.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200414045617_added_entity_ConfigQueryKpi.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200504102700_added_entity_ConfigInputTableQueryKpi.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200506091002_added_entity_ConfigInputKpiQuery.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200506092735_added_entity_ConfigMapKpiQuery.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200506093051_added_entity_ConfigColumnQueryKpi.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200626092550_added_entity_CatKpiSynonym.xml" relativeToChangelogFile="false"/>
+<!--    <include file="config/liquibase/changelog/20201022021222_added_entity_ConfigMapScreenArea.xml" relativeToChangelogFile="false"/>-->
+    <include file="config/liquibase/changelog/20201104090512_added_entity_MapReportDataToDashboard.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201130043330_added_entity_SysRole.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201130045754_added_entity_SysAction.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201130051341_added_entity_SysModule.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201130060636_added_entity_SysModuleAction.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201130061110_added_entity_SysRoleModule.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201130061247_added_entity_SysUserRole.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210402032718_added_entity_RpReport.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210428033546_added_entity_ConfigMapChartChild.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220422080036_added_entity_ChartDescription.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220505040254_added_entity_CatGraphKpiOrigin.xml" relativeToChangelogFile="false"/>
+    <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
+</databaseChangeLog>

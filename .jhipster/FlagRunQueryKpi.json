@@ -1,0 +1,37 @@
+{
+    "name": "FlagRunQueryKpi",
+    "fields": [
+        {
+            "fieldName": "tableName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "kpiId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "prdId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "updateTime",
+            "fieldType": "Instant"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200407110100",
+    "entityTableName": "flag_run_query_kpi",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

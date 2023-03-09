@@ -1,0 +1,18 @@
+entity RawDataFromMicUnit {
+	id                         Long
+    timeType                  Long
+    inputLevel                Long
+    prdId                     Long
+    kpiId                     Long
+    kpiName                   String
+    objCode                   String
+    objName                   String
+    parentCode                String
+    parentName                String
+    val			               Double
+    updateTime                Instant
+}
+dto RawDataFromMicUnit with mapstruct
+paginate RawDataFromMicUnit with pagination
+service RawDataFromMicUnit with serviceClass
+service RawDataFromMicUnit with serviceImpl

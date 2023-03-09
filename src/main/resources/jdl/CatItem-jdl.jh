@@ -1,0 +1,21 @@
+entity CatItem {
+     itemId Long
+     itemCode String
+     itemName String
+     itemValue String
+     categoryId Long
+     categoryCode String
+     position Long
+     description String
+     editable Long
+     parentItemId Long
+     status Long
+     updateTime Instant
+     updateUser String
+}
+dto CatItem with mapstruct
+
+paginate CatItem with pagination
+
+service CatItem with serviceClass
+service CatItem with serviceImpl

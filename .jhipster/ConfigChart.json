@@ -1,0 +1,80 @@
+{
+    "name": "ConfigChart",
+    "fields": [
+        {
+            "fieldName": "chartCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "chartName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "titleChart",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "typeChart",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "timeTypeDefault",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "relativeTime",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "hasTooltip",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "chartUrl",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "groupChartId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "orderIndex",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "groupKpiCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "domainCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "updateTime",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "updateUser",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200225015500",
+    "entityTableName": "config_chart",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

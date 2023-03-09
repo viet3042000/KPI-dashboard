@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.b4t.app",
+      "nativeLanguage": "vi"
+    },
+    "jhipsterVersion": "6.7.1",
+    "applicationType": "monolith",
+    "baseName": "4t_service",
+    "packageName": "com.b4t.app",
+    "packageFolder": "com/b4t/app",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "N2MyM2FjOGU4Mzk4ZDMwNjcxNWY1NzMzYTJlYWJiYjVkMTY3ZjBkNGFmZDIxNDA2MDA0YWIyOTY4MTRmMDQ4OTZmZjAwYjYwMDE4YzE4NjU4MGY0OWRkYzkxMmJjZGFiMzNkMzM4NDVlMjlhNTA4YmI0NWY5OTQ4ODYwZWNhMjM=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1582188516643,
+    "testFrameworks": ["gatling"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "vi",
+    "languages": ["vi"],
+    "blueprints": [],
+    "skipClient": true,
+    "lastLiquibaseTimestamp": 1651723374000
+  }
+}

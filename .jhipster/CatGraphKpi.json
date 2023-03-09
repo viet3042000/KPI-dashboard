@@ -1,0 +1,72 @@
+{
+    "name": "CatGraphKpi",
+    "fields": [
+        {
+            "fieldName": "kpiId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "kpiCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "kpiName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "kpiDisplay",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "unitKpi",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "unitViewCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "rate",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "groupKpiCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "domainCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "source",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "updateTime",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "updateUser",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200224113500",
+    "entityTableName": "cat_graph_kpi",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,223 @@
+entity PostalRptGraph {
+      id Long
+      timeType Long
+      prdId Long
+      kpiId Long
+      kpiCode String
+      kpiName String
+      objCode String
+      objName String
+      parentCode String
+      parentName String
+      inputLevel Long
+      valPlan Long
+      valPlanMon Long
+      valPlanQuar Long
+      valPlanYear Long
+      val Long
+      valMon Long
+      valQuar Long
+      valYear Long
+      valLastMon Long
+      valLastQuar Long
+      valLastYear Long
+      valDelta Long
+      valDeltaMon Long
+      valDeltaQuar Long
+      valDeltaYear Long
+      percentPlan Long
+      percentPlanMon Long
+      percentPlanQuar Long
+      percentPlanYear  Long
+      percentGrow  Long
+      percentGrowMon  Long
+      percentGrowQuar  Long
+      percentGrowYear  Long
+      colorAlarm  String
+      domainCode  String
+}
+
+dto PostalRptGraph with mapstruct
+
+paginate PostalRptGraph with pagination
+
+service PostalRptGraph with serviceClass
+service PostalRptGraph with serviceImpl
+
+
+entity SecurRptGraph {
+     id Long
+     timeType Long
+     prdId Long
+     kpiId Long
+     kpiCode String
+     kpiName String
+     objCode String
+     objName String
+     parentCode String
+     parentName String
+     inputLevel Long
+     valPlan Long
+     valPlanMon Long
+     valPlanQuar Long
+     valPlanYear Long
+     val Long
+     valMon Long
+     valQuar Long
+     valYear Long
+     valLastMon Long
+     valLastQuar Long
+     valLastYear Long
+     valDelta Long
+     valDeltaMon Long
+     valDeltaQuar Long
+     valDeltaYear Long
+     percentPlan Long
+     percentPlanMon Long
+     percentPlanQuar Long
+     percentPlanYear Long
+     percentGrow Long
+     percentGrowMon Long
+     percentGrowQuar Long
+     percentGrowYear Long
+     colorAlarm String
+     domainCode String
+}
+dto SecurRptGraph with mapstruct
+
+paginate SecurRptGraph with pagination
+
+service SecurRptGraph with serviceClass
+service SecurRptGraph with serviceImpl
+
+entity TelcomRptGraph {
+      id Long
+      timeType Long
+      prdId Long
+      kpiId Long
+      kpiCode String
+      kpiName String
+      objCode String
+      objName String
+      parentCode String
+      parentName String
+      inputLevel Long
+      valPlan Long
+      valPlanMon Long
+      valPlanQuar Long
+      valPlanYear Long
+      val Long
+      valMon Long
+      valQuar Long
+      valYear Long
+      valLastMon Long
+      valLastQuar Long
+      valLastYear Long
+      valDelta Long
+      valDeltaMon Long
+      valDeltaQuar Long
+      valDeltaYear Long
+      percentPlan Long
+      percentPlanMon Long
+      percentPlanQuar Long
+      percentPlanYear Long
+      percentGrow Long
+      percentGrowMon Long
+      percentGrowQuar Long
+      percentGrowYear Long
+      colorAlarm String
+      domainCode String
+}
+dto TelcomRptGraph with mapstruct
+paginate TelcomRptGraph with pagination
+service TelcomRptGraph with serviceClass
+service TelcomRptGraph with serviceImpl
+
+
+entity ItRptGraph {
+      id Long
+      timeType Long
+      prdId Long
+      kpiId Long
+      kpiCode String
+      kpiName String
+      objCode String
+      objName String
+      parentCode String
+      parentName String
+      inputLevel Long
+      valPlan Long
+      valPlanMon Long
+      valPlanQuar Long
+      valPlanYear Long
+      val Long
+      valMon Long
+      valQuar Long
+      valYear Long
+      valLastMon Long
+      valLastQuar Long
+      valLastYear Long
+      valDelta Long
+      valDeltaMon Long
+      valDeltaQuar Long
+      valDeltaYear Long
+      percentPlan Long
+      percentPlanMon Long
+      percentPlanQuar Long
+      percentPlanYear Long
+      percentGrow Long
+      percentGrowMon Long
+      percentGrowQuar Long
+      percentGrowYear Long
+      colorAlarm String
+      domainCode String
+}
+dto ItRptGraph with mapstruct
+paginate ItRptGraph with pagination
+service ItRptGraph with serviceClass
+service ItRptGraph with serviceImpl
+
+
+entity IctRptGraph {
+      id Long
+      timeType Long
+      prdId Long
+      kpiId Long
+      kpiCode String
+      kpiName String
+      objCode String
+      objName String
+      parentCode String
+      parentName String
+      inputLevel Long
+      valPlan Long
+      valPlanMon Long
+      valPlanQuar Long
+      valPlanYear Long
+      val Long
+      valMon Long
+      valQuar Long
+      valYear Long
+      valLastMon Long
+      valLastQuar Long
+      valLastYear Long
+      valDelta Long
+      valDeltaMon Long
+      valDeltaQuar Long
+      valDeltaYear Long
+      percentPlan Long
+      percentPlanMon Long
+      percentPlanQuar Long
+      percentPlanYear Long
+      percentGrow Long
+      percentGrowMon Long
+      percentGrowQuar Long
+      percentGrowYear Long
+      colorAlarm String
+      domainCode String
+}
+dto IctRptGraph with mapstruct
+paginate IctRptGraph with pagination
+service IctRptGraph with serviceClass
+service IctRptGraph with serviceImpl
+

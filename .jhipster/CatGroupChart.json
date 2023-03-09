@@ -1,0 +1,44 @@
+{
+    "name": "CatGroupChart",
+    "fields": [
+        {
+            "fieldName": "groupCode",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "groupName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "groupKpiCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "updateTime",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "updateUser",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200224113600",
+    "entityTableName": "cat_group_chart",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

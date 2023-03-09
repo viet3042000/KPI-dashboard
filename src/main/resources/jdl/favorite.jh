@@ -1,0 +1,13 @@
+entity FavoriteUrl
+{
+    id          Long
+    name        String
+    urlLink     String
+    updateTime Instant
+    updateUser String
+}
+
+dto FavoriteUrl with mapstruct
+paginate FavoriteUrl with pagination
+service FavoriteUrl with serviceClass
+service FavoriteUrl with serviceImpl

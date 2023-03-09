@@ -1,0 +1,68 @@
+{
+    "name": "CatItem",
+    "fields": [
+        {
+            "fieldName": "itemId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "itemCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "itemName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "itemValue",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "categoryId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "categoryCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "position",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "editable",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "parentItemId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "updateTime",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "updateUser",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200220092600",
+    "entityTableName": "cat_item",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,6 @@
+projectKey=SONARQ_OS_ATTT_B4T_DASHBOARD_202010
+serverUrl=http://10.240.184.84:9000
+serverVersion=7.0.0.36138
+dashboardUrl=http://10.240.184.84:9000/dashboard/index/SONARQ_OS_ATTT_B4T_DASHBOARD_202010
+ceTaskId=AXVJbgxiLM1eVZJB2k2-
+ceTaskUrl=http://10.240.184.84:9000/api/ce/task?id=AXVJbgxiLM1eVZJB2k2-

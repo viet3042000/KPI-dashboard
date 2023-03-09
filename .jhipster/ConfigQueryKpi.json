@@ -1,0 +1,52 @@
+{
+    "name": "ConfigQueryKpi",
+    "fields": [
+        {
+            "fieldName": "timeType",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "inputLevel",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "queryData",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "queryCheckData",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "updateTime",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "updateUser",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "listParentInputLevel",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200414045617",
+    "entityTableName": "config_query_kpi",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

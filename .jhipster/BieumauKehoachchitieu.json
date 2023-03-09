@@ -1,0 +1,53 @@
+{
+    "name": "BieumauKehoachchitieu",
+    "fields": [
+        {
+            "fieldName": "prdId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "kpiId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "kpiCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "kpiName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "valPlan",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "updateTime",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "updateUser",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "totalRank",
+            "fieldType": "Double"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200504030300",
+    "entityTableName": "bieumau_kehoachchitieu",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

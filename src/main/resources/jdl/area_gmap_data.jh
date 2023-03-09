@@ -1,0 +1,20 @@
+entity AreaGmapData
+{
+    id             Long
+    parentCode    String
+    parentName    String
+    objectCode    String
+    objectName    String
+    locationLevel Long
+    centerLoc     String
+    southLoc      String
+    northLoc      String
+    northPole     String
+    geometry       String
+    status         Long
+}
+
+dto AreaGmapData with mapstruct
+paginate AreaGmapData with pagination
+service AreaGmapData with serviceClass
+service AreaGmapData with serviceImpl

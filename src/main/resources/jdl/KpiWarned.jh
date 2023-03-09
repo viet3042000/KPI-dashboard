@@ -1,0 +1,18 @@
+entity KpiWarned
+{
+    id              Long,
+    kpiId          Long,
+    prdId          Long,
+    status          Long,
+    timeType       Long,
+    warningType    Long,
+    warningLevel   Long,
+    warningContent String,
+    updateTime Instant,
+    updateUser String,
+    tableName String
+}
+ dto KpiWarned with mapstruct
+ paginate KpiWarned with pagination
+ service KpiWarned with serviceClass
+ service KpiWarned with serviceImpl

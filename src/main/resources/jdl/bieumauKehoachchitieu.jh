@@ -1,0 +1,17 @@
+entity BieumauKehoachchitieu
+ {
+    id          Long
+    prdId       Long
+    kpiId       Long
+    kpiCode     String
+    kpiName     String
+    valPlan     Double
+    description String
+    updateTime Instant
+    updateUser String
+    totalRank  Double
+}
+dto BieumauKehoachchitieu with mapstruct
+paginate BieumauKehoachchitieu with pagination
+service BieumauKehoachchitieu with serviceClass
+service BieumauKehoachchitieu with serviceImpl

@@ -1,0 +1,13 @@
+entity SysRole {
+     id Long
+     name String maxlength(250)
+     code String maxlength(200)
+     description String maxlength(500)
+     status Integer
+     updateTime Instant
+     tenantId Long
+}
+dto SysRole with mapstruct
+paginate SysRole with pagination
+service SysRole with serviceClass
+service SysRole with serviceImpl

@@ -1,0 +1,32 @@
+{
+    "name": "ConfigInputTableQueryKpi",
+    "fields": [
+        {
+            "fieldName": "queryKpiId",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "tableSource",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "updateTime",
+            "fieldType": "Instant"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200504102700",
+    "entityTableName": "config_input_table_query_kpi",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

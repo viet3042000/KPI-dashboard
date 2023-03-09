@@ -1,0 +1,32 @@
+{
+    "name": "MonitorQueryKpi",
+    "fields": [
+        {
+            "fieldName": "queryKpiId",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "runTimeSucc",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "updateTime",
+            "fieldType": "Instant"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200414045616",
+    "entityTableName": "monitor_query_kpi",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

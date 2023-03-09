@@ -1,0 +1,56 @@
+{
+    "name": "Emails",
+    "fields": [
+        {
+            "fieldName": "subject",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "email",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "content",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "createTime",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "sendTime",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "userId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "isRepeat",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "source",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "notifyId",
+            "fieldType": "Long"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200406091700",
+    "entityTableName": "emails",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

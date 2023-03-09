@@ -1,0 +1,44 @@
+entity ConfigReport {
+	id Long,
+    title String required,
+    timeType String required,
+    domainCode String required,
+    databaseName String required,
+    tableName String required,
+    inputLevel String required,
+    unit String,
+    status Integer,
+    description String,
+    creator String,
+    updateTime Instant
+}
+dto ConfigReport with mapstruct
+paginate ConfigReport with pagination
+service ConfigReport with serviceClass
+service ConfigReport with serviceImpl
+
+entity ConfigReportColumn {
+	id Long,
+    columnName String required,
+    title String required,
+    dataType String required,
+    reportId Long required,
+    isRequire Integer,
+    maxLength Integer,
+    regexPattern String,
+    defaultValue String,
+    isShow Integer,
+    isTimeColumn Integer,
+    pos Integer,
+    status Integer,
+    creator String,
+    updateTime Instant
+}
+dto ConfigReportColumn with mapstruct
+paginate ConfigReportColumn with pagination
+service ConfigReportColumn with serviceClass
+service ConfigReportColumn with serviceImpl
+
+
+
+

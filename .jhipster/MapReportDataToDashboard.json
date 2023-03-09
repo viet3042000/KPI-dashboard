@@ -1,0 +1,89 @@
+{
+  "name": "MapReportDataToDashboard",
+  "fields": [
+    {
+      "fieldName": "reportId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "rowId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "rowName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "orgId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "columnId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "columnName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "rpInputGrantId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "timeType",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "prdId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "kpiId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "kpiName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "kpiCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "domainCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "objectCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "value",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "updateTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updateUser",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20201104090512",
+  "entityTableName": "map_report_data_to_dashboard",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

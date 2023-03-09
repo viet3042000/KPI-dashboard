@@ -1,0 +1,30 @@
+entity MapReportDataToDashboard {
+	id               Long,
+    reportId         Long,
+    rowId            Long,
+    rowName          String,
+    orgId            Long,
+    columnId         Long,
+    columnName       String,
+    rpInputGrantId   Long,
+    timeType         Long,
+    prdId            Long,
+    kpiId            Long,
+    kpiName          String,
+    kpiCode          String,
+    domainCode       String,
+    objectCode       String,
+    value            String,
+    description      String,
+    updateTime       Instant,
+    updateUser       String
+}
+dto MapReportDataToDashboard with mapstruct
+paginate MapReportDataToDashboard with pagination
+service MapReportDataToDashboard with serviceClass
+service MapReportDataToDashboard with serviceImpl
+
+
+
+
+

@@ -1,0 +1,33 @@
+{
+    "name": "ClassifyColorGmapLevel",
+    "fields": [
+        {
+            "fieldName": "classId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "classLevel",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "fromValue",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "toValue",
+            "fieldType": "Double"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200604111700",
+    "entityTableName": "classify_color_gmap_level",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

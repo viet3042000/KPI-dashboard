@@ -1,0 +1,61 @@
+{
+    "name": "RawDataFromMicUnit",
+    "fields": [
+        {
+            "fieldName": "timeType",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "inputLevel",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "prdId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "kpiId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "kpiName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "objCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "objName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "parentCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "parentName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "val",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "updateTime",
+            "fieldType": "Instant"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200407094300",
+    "entityTableName": "raw_data_from_mic_unit",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

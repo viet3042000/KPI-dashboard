@@ -1,0 +1,40 @@
+{
+    "name": "ConfigQueryChart",
+    "fields": [
+        {
+            "fieldName": "queryData",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "defaultValue",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "upDateTime",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "upDateUser",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200225041500",
+    "entityTableName": "config_query_chart",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

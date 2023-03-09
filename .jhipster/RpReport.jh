@@ -1,0 +1,17 @@
+entity RpReport {
+	id Long,
+    reportName String,
+    reportCode String,
+    updateTime Instant,
+    prdId Integer,
+    timeType Integer
+}
+dto RpReport with mapstruct
+paginate RpReport with pagination
+service RpReport with serviceClass
+service RpReport with serviceImpl
+
+
+
+
+

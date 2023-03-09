@@ -1,0 +1,29 @@
+{
+  "name": "SysUserRole",
+  "fields": [
+    {
+      "fieldName": "userId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "roleId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "updateTime",
+      "fieldType": "Instant"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20201130061247",
+  "entityTableName": "sys_user_role",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

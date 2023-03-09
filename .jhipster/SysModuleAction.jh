@@ -1,0 +1,10 @@
+entity SysModuleAction {
+     id Long
+     moduleId Long
+     actionId Long
+     updateTime Instant
+}
+dto SysModuleAction with mapstruct
+paginate SysModuleAction with pagination
+service SysModuleAction with serviceClass
+service SysModuleAction with serviceImpl

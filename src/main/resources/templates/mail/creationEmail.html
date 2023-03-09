@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:lang="${#locale.language}" lang="en">
+    <head>
+        <title th:text="#{email.activation.title}">Hệ thống Dashboard</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="shortcut icon" th:href="@{|${baseUrl}/favicon.ico|}" />
+    </head>
+    <body>
+        <p th:text="#{email.activation.greeting(${user.lastName}, ${user.firstName})}">
+            Dear
+        </p>
+        <p th:text="#{email.creation.text1}">
+            Tài khoản truy cập hệ thống KPI Dashboard Bộ TTTT của đồng chí đã được thiết lập, vui lòng bấm vào đường dẫn bên dưới để truy cập:
+        </p>
+        <p>
+            <a href="https://dashboard.mic.gov.vn/mic">https://dashboard.mic.gov.vn/mic</a>
+        </p>
+        <p th:text="#{email.activation.username(${user.login})}">
+        </p>
+        <p th:text="#{email.activation.password(${encPass})}">
+        </p>
+        <p>
+            <span th:text="#{email.activation.text2}">Trân trọng, </span>
+            <br/>
+            <em th:text="#{email.signature}">Nhóm DashBoard.</em>
+        </p>
+    </body>
+</html>

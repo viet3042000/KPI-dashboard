@@ -1,0 +1,13 @@
+entity ConfigQueryChart {
+     id  Long
+     queryData  String
+     defaultValue String
+     status  Long
+     description  String
+     upDateTime  Instant
+     upDateUser  String
+ }
+   dto ConfigQueryChart with mapstruct
+   paginate ConfigQueryChart with pagination
+   service ConfigQueryChart with serviceClass
+   service ConfigQueryChart with serviceImpl

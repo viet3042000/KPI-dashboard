@@ -1,0 +1,37 @@
+{
+  "name": "ConfigMapChartChild",
+  "fields": [
+    {
+      "fieldName": "screenId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "chartId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "childChartId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "updateTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updateUser",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210428033546",
+  "entityTableName": "config_map_chart_child",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

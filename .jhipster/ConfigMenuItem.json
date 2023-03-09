@@ -1,0 +1,52 @@
+{
+    "name": "ConfigMenuItem",
+    "fields": [
+        {
+            "fieldName": "menuItemCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "menuItemName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDefault",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "orderIndex",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "menuId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "updateTime",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "updateUser",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200224114500",
+    "entityTableName": "config_menu_item",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

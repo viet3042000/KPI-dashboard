@@ -1,0 +1,22 @@
+
+
+
+entity ConfigMapKpiQuery {
+	id Long,
+    queryKpiId Integer,
+    kpiId Integer,
+    status Integer,
+    description String,
+    updateTime Instant,
+    updateUser String,
+    tableDestination String
+}
+dto ConfigMapKpiQuery with mapstruct
+paginate ConfigMapKpiQuery with pagination
+service ConfigMapKpiQuery with serviceClass
+service ConfigMapKpiQuery with serviceImpl
+
+
+
+
+

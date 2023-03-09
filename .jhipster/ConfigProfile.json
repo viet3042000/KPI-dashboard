@@ -1,0 +1,52 @@
+{
+    "name": "ConfigProfile",
+    "fields": [
+        {
+            "fieldName": "profileCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "profileName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDefault",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "orderIndex",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "roleCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "updateTime",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "updateUser",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200224114600",
+    "entityTableName": "config_profile",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

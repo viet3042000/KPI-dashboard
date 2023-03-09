@@ -1,0 +1,44 @@
+{
+    "name": "ConfigMapKpiQuery",
+    "fields": [
+        {
+            "fieldName": "queryKpiId",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "kpiId",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "updateTime",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "updateUser",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tableDestination",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200506092735",
+    "entityTableName": "config_map_kpi_query",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

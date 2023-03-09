@@ -1,0 +1,48 @@
+{
+    "name": "ConfigColumnQueryKpi",
+    "fields": [
+        {
+            "fieldName": "mapKpiQueryId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "columnQuery",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dataType",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "columnDestination",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "updateTime",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "updateUser",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200506093051",
+    "entityTableName": "config_column_query_kpi",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

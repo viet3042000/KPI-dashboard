@@ -1,0 +1,56 @@
+{
+    "name": "ConfigArea",
+    "fields": [
+        {
+            "fieldName": "areaCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "areaName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "orderIndex",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "positionJson",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "screenId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "timeRefresh",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "updateTime",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "updateUser",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200224113700",
+    "entityTableName": "config_area",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

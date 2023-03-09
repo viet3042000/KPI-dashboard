@@ -1,0 +1,40 @@
+{
+    "name": "ConfigMapGroupChartArea",
+    "fields": [
+        {
+            "fieldName": "groupChartId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "areaId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "positionJson",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "updateTime",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "updateUser",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200224114300",
+    "entityTableName": "config_map_group_chart_area",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,11 @@
+entity ConfigMapChartLinks {
+	id Long,
+    chartMapId Long,
+    chartLinkId Long,
+    updateTime Instant,
+    updateUser String
+}
+dto ConfigMapChartLinks with mapstruct
+paginate ConfigMapChartLinks with pagination
+service ConfigMapChartLinks with serviceClass
+service ConfigMapChartLinks with serviceImpl

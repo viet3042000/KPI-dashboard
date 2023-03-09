@@ -1,0 +1,9 @@
+entity CatKpiSynonym {
+	id Long,
+    kpiId Integer required,
+    synonym String required
+}
+dto CatKpiSynonym with mapstruct
+paginate CatKpiSynonym with pagination
+service CatKpiSynonym with serviceClass
+service CatKpiSynonym with serviceImpl

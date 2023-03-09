@@ -1,0 +1,85 @@
+{
+    "name": "ConfigReportColumn",
+    "fields": [
+        {
+            "fieldName": "columnName",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "title",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "dataType",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "reportId",
+            "fieldType": "Long",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "isRequire",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "maxLength",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "regexPattern",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "defaultValue",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isShow",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "isTimeColumn",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "pos",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "creator",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "updateTime",
+            "fieldType": "Instant"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200403081900",
+    "entityTableName": "config_report_column",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

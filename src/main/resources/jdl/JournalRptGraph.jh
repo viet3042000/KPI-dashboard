@@ -1,0 +1,42 @@
+entity JournalRptGraph {
+      id Long
+      timeType Long
+      prdId Long
+      kpiId Long
+      kpiCode String
+      kpiName String
+      objCode String
+      objName String
+      parentCode String
+      parentName String
+      inputLevel Long
+      valPlan Long
+      valPlanMon Long
+      valPlanQuar Long
+      valPlanYear Long
+      val Long
+      valMon Long
+      valQuar Long
+      valYear Long
+      valLastMon Long
+      valLastQuar Long
+      valLastYear Long
+      valDelta Long
+      valDeltaMon Long
+      valDeltaQuar Long
+      valDeltaYear Long
+      percentPlan Long
+      percentPlanMon Long
+      percentPlanQuar Long
+      percentPlanYear Long
+      percentGrow Long
+      percentGrowMon Long
+      percentGrowQuar Long
+      percentGrowYear Long
+      colorAlarm String
+      domainCode String
+}
+dto JournalRptGraph with mapstruct
+paginate JournalRptGraph with pagination
+service JournalRptGraph with serviceClass
+service JournalRptGraph with serviceImpl

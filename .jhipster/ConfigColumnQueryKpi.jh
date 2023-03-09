@@ -1,0 +1,23 @@
+
+
+
+entity ConfigColumnQueryKpi {
+	id Long,
+    mapKpiQueryId Long,
+    columnQuery String,
+    dataType String,
+    columnDestination String,
+    status Integer,
+    description String,
+    updateTime Instant,
+    updateUser String
+}
+dto ConfigColumnQueryKpi with mapstruct
+paginate ConfigColumnQueryKpi with pagination
+service ConfigColumnQueryKpi with serviceClass
+service ConfigColumnQueryKpi with serviceImpl
+
+
+
+
+

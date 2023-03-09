@@ -1,0 +1,36 @@
+entity ClassifyColorGmap{
+    id            Long,
+    name          String,
+    totalLevel   Double,
+    colorCode    String,
+    status        Long,
+    updateTime   Instant,
+    updateUser   String
+}
+dto ClassifyColorGmap with mapstruct
+paginate ClassifyColorGmap with pagination
+service ClassifyColorGmap with serviceClass
+service ClassifyColorGmap with serviceImpl
+
+entity ClassifyColorGmapKpi{
+    id       Long,
+    classId String,
+    kpiId   Long
+}
+
+dto ClassifyColorGmapKpi with mapstruct
+paginate ClassifyColorGmapKpi with pagination
+service ClassifyColorGmapKpi with serviceClass
+service ClassifyColorGmapKpi with serviceImpl
+
+entity ClassifyColorGmapLevel{
+    id         Long,
+    classId    Long,
+    classLevel Long,
+    fromValue  Double,
+    toValue    Double
+}
+dto ClassifyColorGmapLevel with mapstruct
+paginate ClassifyColorGmapLevel with pagination
+service ClassifyColorGmapLevel with serviceClass
+service ClassifyColorGmapLevel with serviceImpl

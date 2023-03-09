@@ -1,0 +1,13 @@
+entity FlagRunQueryKpi
+{
+                            id Long
+                            tableName String
+                            kpiId Long
+                            prdId Long
+                            status Long
+                            updateTime Instant
+}
+dto FlagRunQueryKpi with mapstruct
+paginate FlagRunQueryKpi with pagination
+service FlagRunQueryKpi with serviceClass
+service FlagRunQueryKpi with serviceImpl
